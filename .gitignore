@@ -1,0 +1,16 @@
+# Raw + processed data: large, regenerable by rerunning the pipeline notebooks/scripts.
+# See COVID-Project-CLAUDE.md / scripts/*.ipynb for how to rebuild each file.
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Claude Code local tool settings (machine/session-specific, not project config)
+.claude/settings.local.json
